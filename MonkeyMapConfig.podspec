@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "MonkeyMapConfig"
-  s.version      = "1.0.BaiDu"
+  s.version      = "1.0.AMap"
   s.summary      = "MonkeyMapConfig Sample Task....."
  
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.framework = 'UIKit'
  
-  s.source = { :git => 'https://github.com/junhaiyang/MonkeyMapConfig.git' , :tag => '1.0.BaiDu'} 
+  s.source = { :git => 'https://github.com/junhaiyang/MonkeyMapConfig.git' , :tag => '1.0.AMap'} 
  
   s.requires_arc = true
 
@@ -24,6 +24,8 @@ Pod::Spec.new do |s|
    
   s.compiler_flags = '-w'
    
-  s.dependency 'BaiduMapKit' , '2.10.2'
- 
+  s.dependency 'AMapSearch' , '4.0.0'
+  s.dependency 'AMapFoundation' , '1.0.0'
+  s.dependency 'AMapLocation' , '1.2.2'
+  
 end
