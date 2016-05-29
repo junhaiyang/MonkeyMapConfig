@@ -3,7 +3,7 @@
 #import <Foundation/Foundation.h>
 
 
-#define __MAP_USE_AMAP_NOT_BMP__      #开启即切换到高德地图API模式
+//#define __MAP_USE_AMAP_NOT_BMP__      #开启即切换到高德地图API模式
 
 
 #ifdef __MAP_USE_AMAP_NOT_BMP__
