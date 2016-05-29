@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
  
 
   s.name         = "MonkeyMapConfig"
-  s.version      = "1.0_BaiDu"
+  s.version      = "1.0.BaiDu"
   s.summary      = "MonkeyMapConfig Sample Task....."
  
 
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
 
   s.ios.framework = 'UIKit'
  
-  s.source = { :git => 'https://github.com/junhaiyang/MonkeyMapConfig.git' , :tag => '1.0_BaiDu'} 
+  s.source = { :git => 'https://github.com/junhaiyang/MonkeyMapConfig.git' , :tag => '1.0.BaiDu'} 
  
   s.requires_arc = true
 
