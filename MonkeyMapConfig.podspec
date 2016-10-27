@@ -24,6 +24,6 @@ Pod::Spec.new do |s|
    
   s.compiler_flags = '-w'
    
-  s.dependency 'BaiduMapKit' , '2.10.2'
+  s.dependency 'BaiduMapKit'
  
 end
